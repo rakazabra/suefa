@@ -65,7 +65,7 @@ start.addEventListener("click", function() {
             CompChoiceDisplay.textContent = "Computer choice is Paper"
             WinnerDisplay.textContent = "draw";
         }
-    else if(randomChoice === 1) {
+    else if(randomChoice === 3) {
         CompChoiceDisplay.textContent = "Computer choice is rock"
     WinnerDisplay.textContent = "You Win";
 }
